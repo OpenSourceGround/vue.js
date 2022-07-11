@@ -7,6 +7,6 @@ import { RouterView } from "vue-router";
 </template>
 
 <style>
-@import "@/assets/index.scss";
-@import "@/assets/tailwinds.scss";
+@import "@/assets/scss/index.scss";
+@import "@/assets/scss/tailwinds.scss";
 </style>
