@@ -1,0 +1,24 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "watch-css": "npx tailwindcss -i ./src/assets/scss/build.scss -o ./src/assets/scss/tailwinds.scss --watch",
+    "build-css": "npx tailwindcss -i ./src/assets/scss/build.scss -o ./src/assets/scss/tailwinds.scss --minify"
+  },
+  "dependencies": {
+    "pug": "^3.0.2",
+    "three": "^0.142.0",
+    "vue": "^3.2.37",
+    "vue-3d-model": "^2.0.0-alpha.2",
+    "vue-router": "^4.0.16"
+  },
+  "devDependencies": {
+    "@types/three": "^0.141.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "sass": "^1.53.0",
+    "vite": "^2.9.12"
+  }
+}
